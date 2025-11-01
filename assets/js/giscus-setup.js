@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "stmiller2/stmiller2",
+    "data-repo": "stmiller2/stmiller2.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",

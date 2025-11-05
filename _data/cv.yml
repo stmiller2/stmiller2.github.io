@@ -2,96 +2,347 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Silas T. Miller
+    - name: Location
+      value: 615 E Gorham St. #6, Madison, WI
+    - name: Email
+      value: stmiller2@wisc.edu / struexm@gmail.com
+    - name: Phone
+      value: (206) 724-8242
+
+---
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Cellular and Molecular Biology (in progress)
+      institution: University of Wisconsin – Madison, Madison, WI
+      year: Sep 2021 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - M.S. in Cellular and Molecular Biology (August 2023)
+        - GPA: 3.86
+    - title: BA in Biochemistry, Biophysics and Molecular Biology
+      institution: Whitman College, Walla Walla, WA
+      year: Sep 2017 – May 2021
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 3.97 cumulative, 3.98 major
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+---
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - NIH Ruth L. Kirschstein NRSA Fellowship (F31 grant) (2024-2025)
+        - Central US Synthetic Biology Workshop Poster Award
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Scientific Teaching Fellowship, UW–Madison WISCIENCE (2024-2025)
+        - Synthetic Biology Session Moderator, GLBRC Annual Science Meeting
+    - year: 2023
+      items:
+        - NSF Graduate Research Fellowship Honorable Mention
+        - Cellular and Molecular Biology Graduate Retreat Poster Award
+        - RosettaCon Poster Award
+        - GLBRC Annual Science Meeting Poster Award
+    - year: 2021
+      items:
+        - Honors in Major Study, Whitman College
+        - Summa Cum Laude, Whitman College
+        - Honors Thesis, Whitman College
+        - President’s Award (Highest student-athlete GPA), Whitman College
+    - year: 2017-2021
+      items:
+        - Beckman Scholars Program Awardee (2019-2021)
+        - Academic Distinction, Whitman College
+    - year: 2020
+      items:
+        - Beckman Symposium Bio/Chem Guest Speaker
+        - Undergraduate Conference Session Moderator, Whitman College
+    - year: 2019
+      items:
+        - Assistant Commencement Marshal, Whitman College
+    - year: 2017
+      items:
+        - Stephen B. L. Penrose Scholarship, Whitman College
+        - Washington State Honors Award
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+---
 
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - >
+      Miller, S. T., Henzler-Wildman, K. A. & Raman, S. **Energetic and structural control of polyspecificity in a multidrug transporter.** *BioRxiv*, (2025).
+    - >
+      Miller, S. T., MacDonald, C. B. & Raman, S. **Understanding, inhibiting, and engineering membrane transporters with high-throughput mutational screens.** *Cell Chemical Biology 32*, (2025).
+
+---
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Graduate Research Assistant – Raman Laboratory
+      institution: Department of Biochemistry, University of Wisconsin – Madison
+      year: September 2021 – Present
+      description:
+        - Examining sequence determinants of function for a bacterial multidrug efflux pump using high-throughput techniques. Two first-author publications (see “Publications”).
+        - Designing and screening metagenomic libraries for biofuel-relevant efflux pumps to facilitate bioenergy strain engineering. Co-author publication in preparation.
+        - Understanding evolution of allostery in TetR-family repressors using ancestral sequence reconstruction and high-throughput screening. Co-first author publication in preparation.
+    - title: Undergraduate Research Assistant – Moss Laboratory
+      institution: Department of Biochemistry, Biophysics and Molecular Biology, Whitman College
+      year: June 2019 – January 2021
+      description:
+        - Developing a novel FRET-based biosensor for the plant hormone auxin.
+        - Undergraduate Research Honors Thesis: ShadowAuxin: Optimizing quenching FRET to develop a novel auxin biosensor (2021).
+
+---
+
+- title: Teaching and Mentorship Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Research Mentor
+      institution: UW–Madison Raman Lab
+      year: September 2025 – Present
+      description:
+        - Mentored an undergraduate student in laboratory techniques, science communication, and professional development.
+    - title: Scientific Teaching Fellowship
+      institution: UW–Madison WISCIENCE Teaching Professional Development
+      year: January 2024 – January 2025
+      description:
+        - Training in pedagogy and curriculum design, culminating in mentored teaching practicum of a team-taught first year undergraduate biology course.
+    - title: Wisconsin Idea STEM Fellowship
+      institution: UW–Madison Portal to the Public WI
+      year: March 2022 – Present
+      description:
+        - Designed and regularly implemented interactive science education activities for children at science outreach events.
+    - title: High School Science Research Internship Mentor
+      institution: UW–Madison & Madison Metropolitan School District
+      year: May 2022 – September 2022
+      description:
+        - Mentored a high school student to complete an independent research project and trained them in laboratory techniques and scientific communication.
+    - title: Rotation Student Mentor
+      institution: UW–Madison Raman Laboratory
+      year: September – October 2022 & 2023
+      description:
+        - Mentor individual students interested in joining the lab for a four-week rotation, leading a research project and guiding analysis and presentation of data.
+    - title: Genetics Tutor
+      institution: Whitman College Biology Department
+      year: January 2021 – May 2021
+      description:
+        - Assisted sophomore-level Genetics students preparing for exams and learning course material.
+    - title: Intern Math/Science Tutor
+      institution: Whitman College America Reads, America Counts
+      year: January 2018 – May 2019
+    - title: Math Instructor
+      institution: Mathnasium of Northwest Seattle
+      year: May 2018 – December 2018
+      description:
+        - Tutored and instructed K-12 students in math topics.
+
+---
+
+- title: Students Trained
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Yichen Zhuang (UW–Madison) (Undergraduate ^)
+    - year: 2024
+      items:
+        - Cizhang Zhao (UW–Madison) (Graduate rotation *)
+        - Sophia Ulmer (UW–Madison) (Graduate rotation *)
+    - year: 2023
+      items:
+        - Srinath Seshadri (UW–Madison) (Graduate rotation *)
+        - Saylor Strugar (UW–Madison) (Graduate rotation *)
+    - year: 2022
+      items:
+        - Liv Abegglen (UW–Madison) (High school †)
+        - Ashley Hiett (UW–Madison) (Graduate rotation *)
+        - Margaret Robinson (UW–Madison) (Graduate rotation *)
+
+---
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Research
+      items:
+        - Molecular cloning (Gibson assembly, Golden Gate assembly, library design, DNA barcoding, lambda red recombineering)
+        - RT-qPCR, fluorescence activated cell sorting (Sony SH800 and MA900 sorters)
+        - Standard microbiological techniques, Western blotting, membrane protein purification, liposomal reconstitution
+        - Next generation sequencing (amplicon and WGS library preparation and QC, Illumina sequencing instruments, data analysis)
+        - Design and execution of high-throughput pooled screens
+        - Modeling membrane proteins in Rosetta.
+    - title: Programming
+      items:
+        - Python, bash, Rosetta software suite, high-throughput computational cluster use.
+    - title: Interpersonal
+      items:
+        - Leadership, teaching, mentorship, collaboration.
+
+---
+
+- title: Other Activities
+  type: time_table
+  contents:
+    - title: Lab Bio/Chem Safety Officer
+      institution: UW–Madison Raman Laboratory
+      year: December 2022 – Present
+      description:
+        - Maintain and update biosafety protocols, chemical hygiene plan, training documents, and SOPs. Conduct safety trainings and facilitate safety inspections.
+    - title: Junior Science Café panelist
+      institution: UW—Madison Morgridge Institute for Research
+      year: July 2025
+      description:
+        - Discuss and answer questions about pursuing a career in science with 8th-10th graders.
+    - title: Rosetta Molecular Modelling & Machine Learning Boot Camp
+      institution: Rosetta Commons
+      year: November 2023
+      description:
+        - Week-long training in PyRosetta and ML-based protein design tools.
+    - title: Science Community Leadership & Event Coordinator
+      institution: Whitman College Beckman Scholars Program
+      year: May 2019 – August 2020
+        - Organized weekly presentations, professional development activities, and newsletters for summer research community. Coordinated an invited speaker.
+    - title: Cross Country and Distance Track Captain
+      institution: Whitman College Cross Country Program
+      year: June 2018 – May 2021
+      description:
+        - Lead the team in training and stewardship of campus community.
+    - title: Buddy Program Volunteer
+      institution: Whitman College
+      year: September 2017 – May 2019
+      description:
+        - Twice monthly social activities with a local adult with a mental disability.
+
+---
+
+- title: Graduate Coursework
+  type: time_table
+  contents:
+    - title: Mentored Practicum in College Science Teaching (INTEGSCI 850)
+      year: 2024
+      description:
+        - Grade: S
+    - title: Instructional Materials Design (INTEGSCI 750)
+      year: 2024
+      description:
+        - Grade: S
+    - title: College Science Teaching (INTEGSCI 650)
+      year: 2024
+      description:
+        - Grade: S
+    - title: Teaching in Sci & Engineering (INTEREGR 601)
+      year: 2022
+      description:
+        - Grade: A
+    - title: Research Mentor Training (INTEGSCI 660)
+      year: 2022
+      description:
+        - Grade: N/A* (Not taken for credit)
+    - title: Cell Signaling and Human Disease (CRB 701)
+      year: 2022
+      description:
+        - Grade: A
+    - title: Synthetic Biology Seminar (BIOCHEM 919)
+      year: 2022
+      description:
+        - Grade: A
+    - title: Eukaryotic Molecular Biology (BIOCHEM 620)
+      year: 2022
+      description:
+        - Grade: A
+    - title: Ethics in Science (ONCOLOGY 715)
+      year: 2022
+      description:
+        - Grade: S
+    - title: Developmental Genetics (GENETICS 710)
+      year: 2021
+      description:
+        - Grade: A
+    - title: Cellular Signal Transduction Mechanisms (BIOCHEM 630)
+      year: 2021
+      description:
+        - Grade: AB
+
+---
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: Energetic and structural control of polyspecificity in a multidrug transporter.
+      institution: Central US Synthetic Biology Workshop poster session, University of Minnesota
+      year: October 2025; Minneapolis, MN
+      description:
+        - Poster Award (^)
+    - title: High-throughput metagenomic scanning to identify lignotoxin efflux pumps.
+      institution: Annual Science Meeting poster session, Great Lakes Bioenergy Research Center
+      year: May 2025; Milwaukee, WI
+    - title: Energetic and structural control of polyspecificity in a multidrug transporter.
+      institution: Navigating Efflux Proteins through Fundamental Research and Clinical Translation poster session, Multi-Drug Efflux Systems Gordon Research Seminar and Conference
+      year: May 2025; Lucca, Italy
+    - title: Energetic and structural control of polyspecificity in a multidrug transporter.
+      institution: Integrative Approaches to Efflux Pump Research oral presentation, Multi-Drug Efflux Systems Gordon Research Seminar
+      year: April 2025; Lucca, Italy
+      description:
+        - Oral Presentation (*)
+    - title: Mapping the molecular rules of transporter specificity to engineer biofuel-relevant efflux pumps.
+      institution: Graduate Retreat poster session, Cellular and Molecular Biology Graduate Program
+      year: October 2024; Green Lake, WI
+    - title: Mapping the molecular rules of transporter specificity to engineer biofuel-relevant efflux pumps.
+      institution: Annual Science Meeting Synthetic Biology concurrent session, Great Lakes Bioenergy Research Center
+      year: May 2024; Lake Geneva, WI
+      description:
+        - Oral Presentation (*)
+    - title: Mapping the molecular rules of transporter specificity to engineer biofuel-relevant efflux pumps.
+      institution: Annual Science Meeting poster session, Great Lakes Bioenergy Research Center
+      year: May 2024; Lake Geneva, WI
+    - title: Mapping the molecular rules of transporter specificity to engineer biofuel-relevant efflux pumps.
+      institution: Sustainable Biomass Conversion Knowledge Gap research presentation, Great Lakes Bioenergy Research Center
+      year: April 2024; Madison, WI
+      description:
+        - Oral Presentation (*)
+    - title: Understanding the molecular rules of transporter specificity.
+      institution: Genome Sciences Program PI Meeting poster session, US Department of Energy
+      year: April 2024; Bethesda, MD
+    - title: Building a deep understanding of transporter specificity.
+      institution: Y16 DOE Review poster session, Great Lakes Bioenergy Research Center
+      year: January 2024; Madison, WI
+    - title: Profiling the sequence determinants of transporter specificity: towards design of biofuel-relevant efflux pumps.
+      institution: Graduate Retreat poster session, Cellular and Molecular Biology Graduate Program
+      year: November 2023; Green Lake, WI
+      description:
+        - Poster Award (^)
+    - title: Profiling the sequence determinants of transporter specificity: towards design of biofuel-relevant efflux pumps.
+      institution: RosettaCon poster session, Rosetta Commons
+      year: August 2023; Leavenworth, WA
+      description:
+        - Poster Award (^)
+    - title: Profiling the sequence determinants of transporter specificity: towards design of biofuel-relevant efflux pumps.
+      institution: Annual Science Meeting poster session, Great Lakes Bioenergy Research Center
+      year: May 2023; Lake Geneva, WI
+      description:
+        - Poster Award (^)
+    - title: ShadowAuxin: Designing a novel auxin biosensor.
+      institution: Beckman Symposium Bio/Chem plenary session, Arnold & Mabel Beckman Foundation
+      year: August 2020; virtual
+      description:
+        - Oral Presentation (*)
+    - title: Quenching FRET between dimerizing fluorescent proteins for use in developing an auxin biosensor.
+      institution: Beckman Symposium poster session, Arnold & Mabel Beckman Foundation
+      year: August 2020; virtual
+    - title: ShadowAuxin: Optimization of Quenching FRET Pairs for a Fluorescent Auxin Biosensor.
+      institution: Plant Biology Worldwide Summit poster session, American Society of Plant Biologists
+      year: July 2020; virtual
+    - title: Quenching FRET between dimerizing fluorescent proteins for use in developing an auxin biosensor.
+      institution: Maize Genetics Conference poster session, Maize Genetics and Genomics Database
+      year: June 2020; virtual
+    - title: Quenching FRET between dimerizing fluorescent proteins for use in developing an auxin biosensor.
+      institution: Research Recruitment poster session, Whitman College
+      year: November 2019; Walla Walla, WA.
+    - title: Inducible gene expression in yeast for use in developing an auxin biosensor.
+      institution: STEM Hub Opening poster session, Whitman College
+      year: September 2019; Walla Walla, WA.
